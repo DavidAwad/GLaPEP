@@ -49,7 +49,7 @@ arpa_to_osx = [
 ]
 arpa_to_osx = dict(arpa_to_osx)
 enpron = {}
-for l in open('/Users/adam/code/hebraize/cmudict-0.7b'):
+for l in open('cmudict-0.7b'):
     if l[:3] != ';;;':
         w, p = l.split(' ', 1)
         pron = p.strip()

@@ -7,10 +7,9 @@ print 'Hello','world!'
 if '' == None:
     print 'None'
 
-
+print a
 
 print 'Some words'
 
-print a
 
 print 'Bye'

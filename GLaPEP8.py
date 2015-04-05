@@ -108,7 +108,7 @@ if __name__ == '__main__':
                 left.addnstr(i+1, 1, str(i+1) +': ' +line, maxy/2, curses.color_pair(3))
                 left.refresh()
 
-                lyrics = sing(messages[error['errorcode']], offsets[error['errorcode']])
+                #lyrics = sing(messages[error['errorcode']], offsets[error['errorcode']])
             else:
                 left.addnstr(i+1, 1, str(i+1) +': ' +line, maxy/2)
                 left.refresh()
