@@ -18,9 +18,9 @@ brew install jp2a
 ``` 
 
 ## Usage
-
+```shell
 ./GLaPEP8.py wrong.py
-
+```
 
 ### Pictures
 
